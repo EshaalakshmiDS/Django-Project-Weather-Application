@@ -2,6 +2,9 @@
 
 This is a Weather Application that utilizes Django as the backend framework. Django provides a clean, pragmatic design and allows for rapid development. The app fetches real-time weather data for any city and displays the current weather conditions, including temperature, humidity, and weather description.
 
+### Preview:
+![image](https://github.com/user-attachments/assets/d5d4f8ce-e64e-4702-8ffd-136e025cc1ac)
+
 ## Features
 
 - **Real-time Weather Data**: Get current weather data for any city around the world.
@@ -14,8 +17,6 @@ This is a Weather Application that utilizes Django as the backend framework. Dja
 - **Backend**: Django
 - **Frontend**: HTML
 - **APIs**: OpenWeatherMap API 
-
-## Installation
 
 ### Prerequisites
 
@@ -60,32 +61,6 @@ This is a Weather Application that utilizes Django as the backend framework. Dja
 
 The app will be accessible at http://127.0.0.1:8000/.
 
-## Installation
-
-1. **Clone the repository**:
-
-   ```bash
-   git clone https://github.com/EshaalakshmiDS/Django-Project-Weather-Application.git
-
-2. **Create and activate a virtual environment**:
-
-   ```bash
-   python -m venv venv
-   source venv/bin/activate 
-
-3. **Install dependencies:**:
-
-   ```bash
-   pip install -r requirements.txt
-
-4. **Apply migrations:**:
-
-   ```bash
-   python manage.py migrate
-   
-5. **Access the application:**:
-
-   Open your browser and navigate to http://127.0.0.1:8000/
 
 ### Project Directory
 
