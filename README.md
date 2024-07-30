@@ -1,11 +1,11 @@
-# Weather App
+# Weather Application
 
 This is a Weather Application that utilizes Django as the backend framework. Django provides a clean, pragmatic design and allows for rapid development. The app fetches real-time weather data for any city and displays the current weather conditions, including temperature, humidity, and weather description.
 
 ## Features
 
 - **Real-time Weather Data**: Get current weather data for any city around the world.
-- **Coordinates**: Displays the coordinates of the place.
+- **City Search**: Easily search for a city's weather using the search bar.
 - **User-Friendly Interface**: Simple and intuitive UI for displaying weather information.
 - **Responsive Design**: Optimized for different screen sizes, ensuring a great experience on mobile and desktop devices.
 
@@ -25,41 +25,79 @@ This is a Weather Application that utilizes Django as the backend framework. Dja
 
 ### Setup
 
-1. **Clone the repository:**
- 
-git https://github.com/EshaalakshmiDS/Django-Project-Weather-Application.git
-cd weather-app
+1. **Clone the repository**:
 
-2. **Create a virtual environment and activate it:**
+    ```bash
+    git clone https://github.com/EshaalakshmiDS/Django-Project-Weather-Application.git
+    cd weather-app
+    ```
 
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+2. **Create a virtual environment and activate it**:
+
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    ```
 
 3. **Install the required packages:**
-   
-pip install -r requirements.txt
 
-4.**Set up the environment variables:**
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-WEATHER_API_KEY=your_api_key
+4. **Set up the environment variables:**
+
+    ```bash
+    WEATHER_API_KEY=your_api_key
+    ```
 
 5. **Run migrations and start the development server:**
-python manage.py migrate
-python manage.py runserver
+
+    ```bash
+    python manage.py migrate
+    python manage.py runserver
+    ```
 
 The app will be accessible at http://127.0.0.1:8000/.
+
+## Installation
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/EshaalakshmiDS/Django-Project-Weather-Application.git
+
+2. **Create and activate a virtual environment**:
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate 
+
+3. **Install dependencies:**:
+
+   ```bash
+   pip install -r requirements.txt
+
+4. **Apply migrations:**:
+
+   ```bash
+   python manage.py migrate
+   
+5. **Access the application:**:
+
+   Open your browser and navigate to http://127.0.0.1:8000/
 
 ### Project Directory
 
 weather/
 │
-├── main/               # Main project directory <br>
+├── weather/                   # Main project directory <br>
 │   ├── settings.py            # Django settings <br>
 │   ├── urls.py                # URL routing <br>
 │   ├── wsgi.py                # WSGI configuration <br>
 │   ├── ... <br>
 │ <br>
-├── weather/                   # Main app directory <br>
+├── main/                      # Main app directory <br>
 │   ├── models.py              # Models for the app <br>
 │   ├── views.py               # Views handling the app logic <br>
 │   ├── urls.py                # URL routing for the app <br>
